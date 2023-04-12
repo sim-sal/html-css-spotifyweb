@@ -1,0 +1,79 @@
+/* body */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* upper */
+#upper{
+    height: calc(100vh - 100px);
+    background-color: rgb(21, 26, 35);
+    display: flex;
+}
+
+/* side */
+#side{
+    height: 100%;
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+}
+
+.side-container{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo{
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.first-list{
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.first-list > div > i{
+    font-size: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.second-list > h3{
+    color: white;
+}
+
+.playlist{
+    margin-top: 10px;
+}
+
+.playlist > div{
+    margin-bottom: 20px;
+}
+
+.playlist > div > i{
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* main */
+main{
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+/* player */
+footer{
+    height: 100px;
+    background-color: rgb(41, 41, 41);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
