@@ -72,17 +72,17 @@ body{
     vertical-align: middle;
 }
 
-.aside-under{
+.side-under{
     position: absolute;
     width: 80%;
     bottom: 0;
 }
 
-.aside-under > span > i{
+.side-under > span > i{
     margin-right: 10px;
 }
 
-.aside-under > hr{
+.side-under > hr{
     opacity: 0.4;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -119,6 +119,15 @@ main{
     border: 1px solid white;
     background-color: rgb(8, 11, 18);
     border-radius: 30px;
+}
+
+.navigation-bar{
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    color: rgb(163, 163, 163);
 }
 
 
