@@ -97,10 +97,30 @@ body{
 
 /* main */
 main{
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
     height: 100%;
     overflow: auto;
 }
+
+.main-top{
+    background-color: rgb(8, 11, 18);
+    height: 100px;
+    position: fixed;
+    width: calc(100% - 250px);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-top > button{
+    color: white;
+    height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: rgb(8, 11, 18);
+    border-radius: 30px;
+}
+
 
 /* player */
 footer{
