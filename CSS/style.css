@@ -102,6 +102,12 @@ main{
     overflow: auto;
 }
 
+main > div > h1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
 .main-top{
     background-color: rgb(8, 11, 18);
     height: 100px;
@@ -130,6 +136,14 @@ main{
     color: rgb(163, 163, 163);
 }
 
+.row{
+    margin-top: 25px;
+}
+
+/* regole row */
+.col-lg-2 > img{
+    max-width: 90%;
+}
 
 /* player */
 footer{
