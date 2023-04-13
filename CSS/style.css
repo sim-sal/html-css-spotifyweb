@@ -205,17 +205,19 @@ footer{
     color: rgb(163, 163, 163);
 }
 
-.mini-album , .instruments{
-    width: calc(100% / 6);
-}
 
-.mini-album{
+.mini-album , .instruments{
     display: flex;
     align-items: center;
+    width: 30%;
+}
+
+.instruments{
+    justify-content: end;
 }
 
 .mini-album > img{
-    max-width: 20%;
+    max-width: 10%;
     object-fit: contain;
     margin-right: 10px;
 }
@@ -282,10 +284,6 @@ footer{
 
 .player-line:hover{
     cursor: pointer;
-}
-
-.instruments{
-    margin-top: 25px;
 }
 
 .instruments > .player-line{
