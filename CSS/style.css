@@ -181,12 +181,110 @@ main::-webkit-scrollbar-thumb {
     color: rgb(163, 163, 163);
 }
 
-/* player */
+.circle{
+    border-radius: 100px;
+}
+
+/* player / footer */
 footer{
     height: 100px;
     background-color: rgb(41, 41, 41);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 999;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    padding: 10px;
+    color: rgb(163, 163, 163);
+}
+
+.mini-album , .instruments{
+    width: calc(100% / 6);
+}
+
+.mini-album{
+    display: flex;
+    align-items: center;
+}
+
+.mini-album > img{
+    max-width: 20%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.mini-album > div > h3{
+    color: white;
+    font-size: 15px;
+}
+
+.mini-album > div > span{
+    font-size: 13px;
+}
+
+.save-me{
+    margin-left: 40px
+}
+
+.mini-album > div > i{
+    margin-left: 10px;
+}
+
+.player{
+    width: 40%;
+    text-align: center;
+}
+
+.player > div > i , span{
+    color: white;
+}
+
+.player > div > span{
+    font-size: 10px;
+}
+
+.player > div > i{
+    font-size: 20px;
+}
+
+.player > div > .rotate{
+    transform: rotate(180deg);
+}
+
+.central-icons{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.big{
+    font-size: 30px;
+}
+
+.player-line {
+    width: 80%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.player-line:hover{
+    cursor: pointer;
+}
+
+.instruments{
+    margin-top: 25px;
+}
+
+.instruments > .player-line{
+    width: 50%;
+}
+
+.instruments > i{
+    color: white;
 }
