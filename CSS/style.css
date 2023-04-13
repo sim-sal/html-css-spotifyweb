@@ -77,6 +77,7 @@ body{
     position: absolute;
     width: 80%;
     bottom: 0;
+    background-color: black;
 }
 
 .side-under > span > i{
@@ -237,12 +238,13 @@ footer{
     text-align: center;
 }
 
-.player > div > i , span{
+.player > div > i{
     color: white;
 }
 
 .player > div > span{
     font-size: 10px;
+    color: white;
 }
 
 .player > div > i{
