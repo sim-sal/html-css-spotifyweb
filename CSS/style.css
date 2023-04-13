@@ -102,10 +102,17 @@ main{
     overflow: auto;
 }
 
-main > div > h1{
-    color: white;
-    margin-top: 30px;
-    margin-left: 10px;
+main::-webkit-scrollbar {
+    width: 12px;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
 }
 
 .main-top{
@@ -136,13 +143,42 @@ main > div > h1{
     color: rgb(163, 163, 163);
 }
 
-.row{
-    margin-top: 25px;
+
+
+/* regole row / container */
+.container-main{
+    width: 95%;
+    margin: auto;
 }
 
-/* regole row */
+.container-main > div > h1{
+    color: white;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.container-main > div > span{
+    margin-left: 10px;
+    color: rgb(163, 163, 163);
+}
+
+.row{
+    margin-top: 25px;
+    text-align: center;
+}
+
 .col-lg-2 > img{
-    max-width: 90%;
+    max-width: 93%;
+}
+
+.col-lg-2 > h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-lg-2 > span{
+    color: rgb(163, 163, 163);
 }
 
 /* player */
