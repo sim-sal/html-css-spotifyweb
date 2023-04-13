@@ -145,6 +145,10 @@ main::-webkit-scrollbar-thumb {
     color: rgb(163, 163, 163);
 }
 
+.navigation-bar > div{
+    max-width: calc(100% / 5);
+}
+
 
 
 /* regole row / container */
@@ -291,4 +295,17 @@ footer{
 .instruments > i{
     color: white;
     margin-right: 10px;
+}
+
+
+
+/********** REGOLE RESPONSIVE **********/
+
+/* versione tablet */
+@media all and (max-width:768px) {
+    .navigation-bar{
+        width: 90%;
+    }
+
+    
 }
